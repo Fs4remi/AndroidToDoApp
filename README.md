@@ -20,7 +20,7 @@ No **optional** features are implemented
 
 Here's a walkthrough of implemented user stories:
 
-[!walkthrough.gif]('./readme_imgs/walkthrough.gif')
+<img src='./readme_imgs/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
