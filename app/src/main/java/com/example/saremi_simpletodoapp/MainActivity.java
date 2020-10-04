@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemLongClicked(int position) {
                 items.remove(position);
                 iAdapter.notifyItemRemoved(position);
-                Toast.makeText(getApplicationContext(),"Yay! Done", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Yay! (◡̀_◡́҂)", Toast.LENGTH_SHORT).show();
                 saveItems();
             }
         };
@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
                 items.add(etItem.getText().toString());
                 // notify adapter about the change
                 iAdapter.notifyItemInserted(items.size()-1);
-                etItem.setText("Added your new item!");
-                Toast.makeText(getApplicationContext(),"Yay! Done", Toast.LENGTH_SHORT).show();
+                etItem.setText("");
+                Toast.makeText(getApplicationContext(),"Yay! (>‿◠)", Toast.LENGTH_SHORT).show();
                 saveItems();
             }
         });
